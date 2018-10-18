@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1539814512 source:i:\workspacec++\basedatos\base.cpp
+
+1539817561 source:i:\workspacec++\basedatos\main.cpp
+	"VistaBase.h"
+	<iostream>
+	<string>
+
+1539817121 i:\workspacec++\basedatos\vistabase.h
+	<iostream>
+	<string>
+
+1539817238 source:i:\workspacec++\basedatos\vistabase.cpp
+	<iostream>
+	<string>
+	"VistaBase.h"
+
+1539788284 source:r:\c++\basedatos\base.cpp
+
+1539865160 source:r:\c++\basedatos\main.cpp
+	"VistaBase.h"
+	"CtrBase.h"
+	<iostream>
+	<string>
+
+1539788284 r:\c++\basedatos\vistabase.h
+	<iostream>
+	<string>
+
+1539861032 source:r:\c++\basedatos\vistabase.cpp
+	<iostream>
+	<string>
+	<cctype>
+	"VistaBase.h"
+
+1539865098 r:\c++\basedatos\ctrbase.h
+	<string>
+
+1539866694 source:r:\c++\basedatos\ctrbase.cpp
+	"CtrBase.h"
+	"funciones.h"
+	<iostream>
+	<string>
+	<vector>
+
+1539865790 r:\c++\basedatos\funciones.h
+	<string>
+	<sstream>
+
+1539835380 source:i:\workspacec++\bdv.1\base.cpp
+
+1539903276 source:i:\workspacec++\bdv.1\ctrbase.cpp
+	"CtrBase.h"
+	<iostream>
+	<sys/stat.h>
+	<unistd.h>
+	<string>
+	<fstream>
+
+1539904499 i:\workspacec++\bdv.1\ctrbase.h
+	<string>
+
+1539835380 i:\workspacec++\bdv.1\funciones.h
+	<string>
+	<sstream>
+
+1539905666 source:i:\workspacec++\bdv.1\main.cpp
+	"VistaBase.h"
+	"CtrBase.h"
+	<iostream>
+	<string>
+
+1539901667 i:\workspacec++\bdv.1\vistabase.h
+	<iostream>
+	<string>
+
+1539903627 source:i:\workspacec++\bdv.1\vistabase.cpp
+	<iostream>
+	<string>
+	<cctype>
+	"VistaBase.h"
+
