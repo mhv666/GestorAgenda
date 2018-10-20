@@ -1,5 +1,6 @@
 #include "VistaBase.h"
 #include "CtrBase.h"
+#include "Aplication.h"
 #include <iostream>
 #include <string>
 
@@ -8,6 +9,7 @@ using namespace std;
 
 int main()
 {
+    /**<
     VistaBase vb;
     CtrBase cb;
     bool  a;
@@ -26,6 +28,7 @@ do{
 
             }else
             {
+
             ///TODO:lanzar menu interno de base
 
 
@@ -44,5 +47,9 @@ do{
 
 
 }while(answer != "adios");
+ */
+ Aplication app;
+ app.run();
+
     return 0;
 }

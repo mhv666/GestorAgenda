@@ -5,6 +5,7 @@
 		<Option title="BaseDatos" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="Interfaces\;Logic\;Aplication\;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/BaseDatos" prefix_auto="1" extension_auto="1" />
@@ -31,10 +32,34 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Aplication.cpp">
+			<Option virtualFolder="Aplication/" />
+		</Unit>
+		<Unit filename="Aplication.h" />
 		<Unit filename="Base.cpp" />
 		<Unit filename="Base.h" />
+		<Unit filename="Console.cpp">
+			<Option virtualFolder="Interfaces/" />
+		</Unit>
+		<Unit filename="Console.h" />
 		<Unit filename="CtrBase.cpp" />
 		<Unit filename="CtrBase.h" />
+		<Unit filename="GestionBase.cpp">
+			<Option virtualFolder="Logic/" />
+		</Unit>
+		<Unit filename="GestionBase.h" />
+		<Unit filename="Interface.cpp">
+			<Option virtualFolder="Interfaces/" />
+		</Unit>
+		<Unit filename="Interface.h" />
+		<Unit filename="Qt.cpp">
+			<Option virtualFolder="Interfaces/" />
+		</Unit>
+		<Unit filename="Qt.h" />
+		<Unit filename="Registro.cpp">
+			<Option virtualFolder="Logic/" />
+		</Unit>
+		<Unit filename="Registro.h" />
 		<Unit filename="VistaBase.cpp" />
 		<Unit filename="VistaBase.h" />
 		<Unit filename="funciones.h" />

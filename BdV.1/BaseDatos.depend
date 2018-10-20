@@ -49,7 +49,7 @@
 
 1539835380 source:i:\workspacec++\bdv.1\base.cpp
 
-1539903276 source:i:\workspacec++\bdv.1\ctrbase.cpp
+1539983237 source:i:\workspacec++\bdv.1\ctrbase.cpp
 	"CtrBase.h"
 	<iostream>
 	<sys/stat.h>
@@ -64,9 +64,10 @@
 	<string>
 	<sstream>
 
-1539905666 source:i:\workspacec++\bdv.1\main.cpp
+1539984358 source:i:\workspacec++\bdv.1\main.cpp
 	"VistaBase.h"
 	"CtrBase.h"
+	"Aplication.h"
 	<iostream>
 	<string>
 
@@ -79,4 +80,49 @@
 	<string>
 	<cctype>
 	"VistaBase.h"
+
+1539974746 source:i:\workspacec++\bdv.1\interface.cpp
+
+1540042231 source:i:\workspacec++\bdv.1\aplication.cpp
+	"Aplication.h"
+	"GestionBase.h"
+	"Registro.h"
+	"Console.h"
+	<iostream>
+
+1540040955 i:\workspacec++\bdv.1\gestionbase.h
+	<iostream>
+	<string>
+
+1540035465 i:\workspacec++\bdv.1\console.h
+	<string>
+	"Interface.h"
+
+1539974685 i:\workspacec++\bdv.1\interface.h
+
+1540035892 source:i:\workspacec++\bdv.1\console.cpp
+	"Console.h"
+	<iostream>
+	<string>
+
+1539974411 source:i:\workspacec++\bdv.1\qt.cpp
+
+1540041304 source:i:\workspacec++\bdv.1\gestionbase.cpp
+	"GestionBase.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1539984167 i:\workspacec++\bdv.1\aplication.h
+	<iostream>
+
+1540042247 source:i:\workspacec++\bdv.1\registro.cpp
+	"Registro.h"
+	<iostream>
+	<string.h>
+	<string>
+	<stdio.h>
+
+1540037340 i:\workspacec++\bdv.1\registro.h
+	<string>
 

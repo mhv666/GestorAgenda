@@ -43,10 +43,6 @@ void CtrBase::cargarBase(string name)
         {
             return 2;
         }
-        else if(answer == "3")
-        {
-            return 3;
-        }
         else{
             return -1;
         }
