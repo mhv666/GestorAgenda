@@ -1,6 +1,7 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 #include <string>
+#include <vector>
 #include "Interface.h"
 class Console: public Interface
 {
@@ -9,10 +10,13 @@ class Console: public Interface
     std::string menu();
     std::string nombreBase();
     std::string menuBase();
+    std::string queBuscar();
+    std::string askName();
+    std::string askSurname();
+    std::string askTelephone();
+    void error();
     void menuBaseRegistro(std::string *name, std::string *surname, std::string *telephone );
-    string queBuscar();
-
-
+    void seeVector(std::vector<std::string> base);
 };
 
 

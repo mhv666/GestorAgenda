@@ -37,7 +37,7 @@ string Registro::fields(string name, string surname, string telefono)
         validation++;
 
 
-        reg += "/!";
+        reg += "t/";
         reg += m_telefono;
 
 
